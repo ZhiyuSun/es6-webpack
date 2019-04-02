@@ -21,3 +21,7 @@ npm i webpack-dev-server -g
 ```shell
 npm start
 ```
+
+### 学习心得
+
+几个demo，从常量、作用域、箭头函数、默认参数、对象代理五个方面比较了ES5和ES6的用法区别

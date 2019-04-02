@@ -4,4 +4,4 @@
 // import "./src/arrow-function"
 // import "./src/parameter"
 import "./src/proxy"
-// test()
+// test();

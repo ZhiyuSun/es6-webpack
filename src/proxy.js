@@ -6,16 +6,16 @@
       name: 'es3',
       sex: 'male',
       age: 15
-    }
+    };
     this.get = function(key) {
       return data[key]
-    }
+    };
     this.set = function(key, value) {
       if (key !== 'sex') {
         data[key] = value
       }
     }
-  }
+  };
 
   // 声明一个实例
   var person = new Person();
@@ -26,7 +26,9 @@
   console.table({name: person.get('name'), sex: person.get('sex'), age: person.get('age')});
   person.set('sex', 'female');
   console.table({name: person.get('name'), sex: person.get('sex'), age: person.get('age')});
-} {
+}
+
+{
   // ES5
   var Person = {
     name: 'es5',
@@ -47,7 +49,9 @@
   } catch (e) {
     console.log(e);
   }
-} {
+}
+
+{
   // ES6
   let Person = {
     name: 'es6',
